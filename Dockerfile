@@ -8,7 +8,7 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 ENV NVM_DIR "/root/.nvm"
-ENV PATH "/root/.nvm/versions/node/v8.2.1/bin:${PATH}:/opt/cli_venv/bin"
+ENV PATH "/root/.nvm/versions/node/v8.9.4/bin:${PATH}:/opt/cli_venv/bin"
 
 RUN apt-get update \
   && apt-get install -y software-properties-common \
